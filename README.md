@@ -2,7 +2,12 @@
 
 Raytracer written in C++, based on [Peter Shirley's books](https://raytracing.github.io)
 
-## render
+### third party library
+
+ - [glm](https://github.com/g-truc/glm)
+ - [stb](https://github.com/nothings/stb)
+
+### render
 
 ![In One Weekend](./render/book1.png)
 
