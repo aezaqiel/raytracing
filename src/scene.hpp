@@ -51,6 +51,8 @@ public:
     std::optional<HitRecord> hit(const Ray& ray, Interval clip) const;
     std::optional<ScatterRecord> scatter(const Ray& ray, const HitRecord& hit) const;
 
+    static Scene book1();
+
 private:
     struct LambertianCollections
     {
